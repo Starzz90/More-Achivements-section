@@ -44,6 +44,9 @@ body {
             color: #FE019A;
             line-height: 1.5;
         }
+        .d{
+            color: rgba(255, 255, 255, 0.7);
+        }
         strong{
             margin-top: 5px;
             color: #B026FF;
