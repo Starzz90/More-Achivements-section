@@ -213,17 +213,18 @@ line-height: 1.8;
         p{
         font-family:'Press Start 2P', monospace;
         font-size: 12px;
-        line-height: 1.5;
         }
         .p {
             color: white;
             margin: 10px 0;
-            line-height: 1.5;
             font-size: 15px;
         }
         .p:hover{
             color: #EF7C00;
             transform: scale(1.2)
+        }
+        a{
+                    color: #F5BB00;
         }
         .Achivement-image {            
             width: 50px;
