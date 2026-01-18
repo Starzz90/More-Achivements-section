@@ -61,10 +61,7 @@ body {
         .inline-link{
             font-size: 12px;
             display: inline-link;
-            padding: 7px 5px;
-            margin: 5px;
             text-decoration: none;
-            border-radius: 5px;
             font-weight: bold;
             transition : background 0.3s, color 0.3s, font-style 0.3s;
             font-style: normal;
