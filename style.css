@@ -336,3 +336,22 @@ line-height: 1.8;
     .pixel-text {
       font-family: 'Press Start 2P', monospace;
     }
+.button{
+    background:#8A2BE2; /* Bright Purple */
+    color: white;
+    padding: 10px 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 7px;
+    border-color:rgba(120, 0, 211, 0.7);
+    border-style: solid;
+    border-width: 3px;
+}
+.button:hover{
+    background:#6A0DAD; /* Darker Purple */
+    color: white;
+    font-style: bold;
+    transform : scale(1.05);
+    transition: transform 0.3s;
+}
