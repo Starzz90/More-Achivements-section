@@ -198,8 +198,11 @@ body {
         }
         h6{
         font-size: 12px;
-        color: #39FF14;
+        color: hsl(111, 92%, 76%);
         font-style: bold;
+        }
+        .city{
+            color: #93ff80;
         }
         .participant{
             color: #FFFF00;
