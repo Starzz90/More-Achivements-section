@@ -383,7 +383,8 @@ body {
         .centerize{
             text-align: center;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 768px)
+    {}
     .Division {
         flex-direction: column;
         text-align: center;
@@ -407,14 +408,11 @@ body {
     .center{
         text-align: center;
         align-items: center;
+    }
     .profile-img {
         width: 100px;
         height: 100px;
     }
-    @font-face {
-      font-family: 'Press Start 2P';
-    }
-    
     .pixel-text {
       font-family: 'Press Start 2P', monospace;
     }
