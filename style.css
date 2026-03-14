@@ -90,10 +90,10 @@ body {
             border-radius: 50%;
             margin: 20px;
         }
-        @keyframes glow {
-            0% { box-shadow: 0 0 0px rgba(255, 255, 255, 0.0); }
-            50% { box-shadow: 0 0 14px rgba(255, 255, 255, 0.8), 0 0 20px rgba(138, 43, 226, 0.4); }
-            100% { box-shadow: 0 0 0px rgba(255, 255, 255, 0.0); }
+        @keyframes glow-text {
+            0% { text-shadow: 0 0 0px rgba(255, 255, 255, 0.0), 0 0 0px rgba(138, 43, 226, 0.0); }
+            50% { text-shadow: 0 0 6px rgba(255, 255, 255, 0.9), 0 0 14px rgba(138, 43, 226, 0.6); }
+            100% { text-shadow: 0 0 0px rgba(255, 255, 255, 0.0), 0 0 0px rgba(138, 43, 226, 0.0); }
         }
 
         .inline-link {
@@ -109,8 +109,9 @@ body {
         .inline-link:hover {
             color: #ffffff;
             transform: scale(1.1);
-            animation: glow 0.8s ease-in-out infinite alternate;
-            animation-fill-mode: forwards;
+            animation: glow-text 0.9s ease-in-out infinite alternate;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.9), 0 0 18px rgba(138, 43, 226, 0.6);
+            text-decoration: underline;
         }
             @keyframes pulse-sm {
             0% { transform: scale(1); }
