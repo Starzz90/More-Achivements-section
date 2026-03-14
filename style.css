@@ -109,9 +109,7 @@ body {
         .inline-link:hover {
             color: #ffffff;
             transform: scale(1.1);
-            text-decoration: underline;
             animation: glow 0.8s ease-in-out infinite alternate;
-            animation: pulse-sm 0.4s ease-in-out;
             animation-fill-mode: forwards;
         }
             @keyframes pulse-sm {
