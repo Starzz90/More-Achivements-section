@@ -112,11 +112,6 @@ body {
             animation: glow-text 0.9s ease-in-out infinite alternate;
             text-shadow: 0 0 10px rgba(255, 255, 255, 0.9), 0 0 18px rgba(138, 43, 226, 0.6);
         }
-            @keyframes pulse-sm {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
         .btn {
             background:#8A2BE2; /* Bright Purple */
             color: white;
